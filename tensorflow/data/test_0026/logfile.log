@@ -1,0 +1,29 @@
+
+Using variables:
+fromSim: 1003
+toSim: 1003
+simSizeLow: 64
+tileSizeLow: 16
+cropOverlap: 0
+cropTileSizeLow: 16
+upRes: 1
+emptyTileValue: 0.01
+learningRate: 5e-05
+trainingEpochs: 50000
+dropout: 0.9
+batchSize: 96
+
+
+
+Loading sim 1003 from ../data/sim_1003/frame_0000/tiles_16x16/
+Total Tiles: 320
+Discarded Tiles: 65
+Used Tiles: 255
+Tiles in data set: 255
+Training set: 242
+Testing set:  12
+Reducing data to 2D velocity...
+
+*****TRAINING STARTED*****
+
+(stop with ctrl-c)

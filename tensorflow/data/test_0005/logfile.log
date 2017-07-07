@@ -1,0 +1,28 @@
+
+Using variables:
+fromSim: 1000
+toSim: 1000
+simSizeLow: 64
+tileSizeLow: 16
+cropOverlap: 0
+cropTileSizeLow: 16
+upRes: 1
+emptyTileValue: -1.0
+learningRate: 5e-05
+trainingEpochs: 10000
+dropout: 0.9
+batchSize: 96
+
+
+Model restored from ../data/test_0001/model_0033.ckpt.
+
+Loading sim 1000 from ../data/sim_1000/frame_0000/tiles_16x16/
+Total Tiles: 320
+Discarded Tiles: 0
+Used Tiles: 320
+Tiles in data set: 320
+Training set: 304
+Testing set:  16
+Reducing data to 2D velocity...
+Creating outputs...
+Test finished, 20 pngs written to ../data/test_0005/.

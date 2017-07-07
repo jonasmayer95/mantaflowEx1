@@ -1,0 +1,16 @@
+
+Using variables:
+fromSim: 1000
+toSim: 1000
+simSizeLow: 64
+tileSizeLow: 16
+cropOverlap: 0
+cropTileSizeLow: 16
+upRes: 1
+emptyTileValue: -1.0
+learningRate: 5e-05
+trainingEpochs: 10000
+dropout: 0.9
+batchSize: 96
+
+

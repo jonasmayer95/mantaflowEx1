@@ -1,0 +1,11 @@
+test_0001: 0.23 min, 1000 Epochs, cost 2309.6023,  
+test_0003: 0.23 min, 1000 Epochs, cost 2503.8145,  
+test_0001: 2.60 min, 50000 Epochs, cost 0.8388,  
+test_0001: 2.58 min, 50000 Epochs, cost 4.0758,  
+test_0005: 0.00 min, 10000 Epochs, cost 0.0000,  , Loaded 0001, 33
+test_0006: 4.67 min, 50000 Epochs, cost 2.2291,  
+test_0007: 0.00 min, 10000 Epochs, cost 0.0000,  , Loaded 0001, 36
+test_0010: 0.04 min, 50000 Epochs, cost 230.7560,  
+test_0011: 6.17 min, 50000 Epochs, cost 0.6553,  
+test_0012: 0.00 min, 10000 Epochs, cost 0.0000,  , Loaded 0001, 43
+test_0037: 6.64 min, 50000 Epochs, cost 94.0604,  

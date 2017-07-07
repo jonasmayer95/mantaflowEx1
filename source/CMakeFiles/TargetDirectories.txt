@@ -1,0 +1,4 @@
+/home/paul/Desktop/mantaflowEx1/source/CMakeFiles/rebuild_cache.dir
+/home/paul/Desktop/mantaflowEx1/source/CMakeFiles/edit_cache.dir
+/home/paul/Desktop/mantaflowEx1/source/CMakeFiles/manta.dir
+/home/paul/Desktop/mantaflowEx1/source/CMakeFiles/prep.dir

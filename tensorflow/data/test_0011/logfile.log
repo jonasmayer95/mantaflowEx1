@@ -1,0 +1,827 @@
+
+Using variables:
+fromSim: 1001
+toSim: 1001
+simSizeLow: 64
+tileSizeLow: 16
+cropOverlap: 0
+cropTileSizeLow: 16
+upRes: 1
+emptyTileValue: 0.01
+learningRate: 5e-05
+trainingEpochs: 50000
+dropout: 0.9
+batchSize: 96
+
+
+
+Loading sim 1001 from ../data/sim_1001/frame_0000/tiles_16x16/
+Total Tiles: 320
+Discarded Tiles: 93
+Used Tiles: 227
+Tiles in data set: 227
+Training set: 215
+Testing set:  11
+Reducing data to 2D velocity...
+
+*****TRAINING STARTED*****
+
+(stop with ctrl-c)
+
+Epoch 0200/50000 - Cost= 1144.973230286 - Cost_test= 478.703594971
+200 epochs took 1.37 seconds.
+
+Epoch 0400/50000 - Cost= 318.497879181 - Cost_test= 278.959600830
+200 epochs took 1.35 seconds.
+
+Epoch 0600/50000 - Cost= 177.030722771 - Cost_test= 226.276139832
+200 epochs took 1.36 seconds.
+
+Epoch 0800/50000 - Cost= 119.422404327 - Cost_test= 193.720751953
+200 epochs took 1.38 seconds.
+Saved Model with cost 89.567055.
+
+Epoch 1000/50000 - Cost= 90.316763401 - Cost_test= 151.113011169
+200 epochs took 1.41 seconds.
+
+Epoch 1200/50000 - Cost= 70.522757053 - Cost_test= 156.839674377
+200 epochs took 1.58 seconds.
+
+Epoch 1400/50000 - Cost= 59.434319878 - Cost_test= 136.401358032
+200 epochs took 1.54 seconds.
+
+Epoch 1600/50000 - Cost= 49.941932564 - Cost_test= 122.850157166
+200 epochs took 1.59 seconds.
+
+Epoch 1800/50000 - Cost= 43.047461472 - Cost_test= 120.179418945
+200 epochs took 1.70 seconds.
+Saved Model with cost 33.492027.
+
+Epoch 2000/50000 - Cost= 37.371501923 - Cost_test= 105.067353821
+200 epochs took 1.49 seconds.
+
+Epoch 2200/50000 - Cost= 33.087522306 - Cost_test= 97.787449646
+200 epochs took 1.48 seconds.
+
+Epoch 2400/50000 - Cost= 29.373288002 - Cost_test= 100.621634674
+200 epochs took 1.37 seconds.
+
+Epoch 2600/50000 - Cost= 26.182213402 - Cost_test= 92.745447540
+200 epochs took 1.38 seconds.
+
+Epoch 2800/50000 - Cost= 23.898044910 - Cost_test= 80.525158691
+200 epochs took 1.37 seconds.
+Saved Model with cost 22.884312.
+
+Epoch 3000/50000 - Cost= 21.412907095 - Cost_test= 80.509175873
+200 epochs took 1.42 seconds.
+
+Epoch 3200/50000 - Cost= 19.605691566 - Cost_test= 83.358124542
+200 epochs took 1.37 seconds.
+
+Epoch 3400/50000 - Cost= 18.111398759 - Cost_test= 74.436759949
+200 epochs took 1.37 seconds.
+
+Epoch 3600/50000 - Cost= 16.807407055 - Cost_test= 77.998187256
+200 epochs took 1.38 seconds.
+
+Epoch 3800/50000 - Cost= 15.727244110 - Cost_test= 70.071537781
+200 epochs took 1.37 seconds.
+Saved Model with cost 14.337358.
+
+Epoch 4000/50000 - Cost= 14.549376841 - Cost_test= 69.936582184
+200 epochs took 1.42 seconds.
+
+Epoch 4200/50000 - Cost= 13.614612494 - Cost_test= 73.579672241
+200 epochs took 1.38 seconds.
+
+Epoch 4400/50000 - Cost= 13.003549762 - Cost_test= 64.030585480
+200 epochs took 1.37 seconds.
+
+Epoch 4600/50000 - Cost= 12.138307290 - Cost_test= 68.223694229
+200 epochs took 1.39 seconds.
+
+Epoch 4800/50000 - Cost= 11.548512244 - Cost_test= 64.897711945
+200 epochs took 1.37 seconds.
+Saved Model with cost 10.198480.
+
+Epoch 5000/50000 - Cost= 10.871177964 - Cost_test= 68.961595917
+200 epochs took 1.41 seconds.
+
+Epoch 5200/50000 - Cost= 10.593760047 - Cost_test= 70.465971375
+200 epochs took 1.40 seconds.
+
+Epoch 5400/50000 - Cost= 10.116868086 - Cost_test= 69.128173065
+200 epochs took 1.38 seconds.
+
+Epoch 5600/50000 - Cost= 9.573511205 - Cost_test= 63.503950119
+200 epochs took 1.39 seconds.
+
+Epoch 5800/50000 - Cost= 9.410537956 - Cost_test= 69.831015396
+200 epochs took 1.38 seconds.
+Saved Model with cost 8.575587.
+
+Epoch 6000/50000 - Cost= 8.965302188 - Cost_test= 60.720627594
+200 epochs took 1.42 seconds.
+
+Epoch 6200/50000 - Cost= 8.719330063 - Cost_test= 57.195604706
+200 epochs took 1.38 seconds.
+
+Epoch 6400/50000 - Cost= 8.337056804 - Cost_test= 59.911631393
+200 epochs took 1.38 seconds.
+
+Epoch 6600/50000 - Cost= 8.001132796 - Cost_test= 58.820272446
+200 epochs took 1.38 seconds.
+
+Epoch 6800/50000 - Cost= 7.824852068 - Cost_test= 54.965946579
+200 epochs took 1.40 seconds.
+Saved Model with cost 7.065424.
+
+Epoch 7000/50000 - Cost= 7.495012813 - Cost_test= 62.149407196
+200 epochs took 1.44 seconds.
+
+Epoch 7200/50000 - Cost= 7.344854944 - Cost_test= 55.927285004
+200 epochs took 1.44 seconds.
+
+Epoch 7400/50000 - Cost= 7.227720327 - Cost_test= 53.744431305
+200 epochs took 1.49 seconds.
+
+Epoch 7600/50000 - Cost= 6.994895046 - Cost_test= 57.495728302
+200 epochs took 1.47 seconds.
+
+Epoch 7800/50000 - Cost= 6.858191206 - Cost_test= 54.817387772
+200 epochs took 1.42 seconds.
+Saved Model with cost 6.100568.
+
+Epoch 8000/50000 - Cost= 6.554649127 - Cost_test= 56.815772629
+200 epochs took 1.46 seconds.
+
+Epoch 8200/50000 - Cost= 6.410131135 - Cost_test= 48.373988724
+200 epochs took 1.40 seconds.
+
+Epoch 8400/50000 - Cost= 6.361600728 - Cost_test= 45.508692551
+200 epochs took 1.39 seconds.
+
+Epoch 8600/50000 - Cost= 6.184315410 - Cost_test= 55.662517166
+200 epochs took 1.38 seconds.
+
+Epoch 8800/50000 - Cost= 5.974453158 - Cost_test= 53.701598740
+200 epochs took 1.40 seconds.
+Saved Model with cost 5.433262.
+
+Epoch 9000/50000 - Cost= 5.957410970 - Cost_test= 53.055537033
+200 epochs took 1.43 seconds.
+
+Epoch 9200/50000 - Cost= 5.790409695 - Cost_test= 44.699793243
+200 epochs took 1.40 seconds.
+
+Epoch 9400/50000 - Cost= 5.705012960 - Cost_test= 52.165168381
+200 epochs took 1.38 seconds.
+
+Epoch 9600/50000 - Cost= 5.585310527 - Cost_test= 39.794429398
+200 epochs took 1.39 seconds.
+
+Epoch 9800/50000 - Cost= 5.482374134 - Cost_test= 47.731396866
+200 epochs took 1.39 seconds.
+
+Epoch 10000/50000 - Cost= 5.349358264 - Cost_test= 44.802763748
+200 epochs took 1.39 seconds.
+Saved Model with cost 4.337774.
+
+Epoch 10200/50000 - Cost= 5.256641152 - Cost_test= 52.150452042
+200 epochs took 1.41 seconds.
+
+Epoch 10400/50000 - Cost= 5.194461086 - Cost_test= 49.708145142
+200 epochs took 1.39 seconds.
+
+Epoch 10600/50000 - Cost= 5.159605550 - Cost_test= 50.391772842
+200 epochs took 1.47 seconds.
+
+Epoch 10800/50000 - Cost= 4.989152290 - Cost_test= 47.733565521
+200 epochs took 1.47 seconds.
+
+Epoch 11000/50000 - Cost= 4.985159191 - Cost_test= 47.736441422
+200 epochs took 1.48 seconds.
+Saved Model with cost 4.300651.
+
+Epoch 11200/50000 - Cost= 4.924152158 - Cost_test= 47.317279053
+200 epochs took 1.45 seconds.
+
+Epoch 11400/50000 - Cost= 4.732799069 - Cost_test= 52.699826813
+200 epochs took 1.43 seconds.
+
+Epoch 11600/50000 - Cost= 4.827007990 - Cost_test= 49.779451370
+200 epochs took 1.43 seconds.
+
+Epoch 11800/50000 - Cost= 4.637440525 - Cost_test= 40.392713928
+200 epochs took 1.48 seconds.
+
+Epoch 12000/50000 - Cost= 4.596117001 - Cost_test= 48.972643661
+200 epochs took 1.47 seconds.
+Saved Model with cost 3.429607.
+
+Epoch 12200/50000 - Cost= 4.536020335 - Cost_test= 47.540651703
+200 epochs took 1.48 seconds.
+
+Epoch 12400/50000 - Cost= 4.504402289 - Cost_test= 48.778821182
+200 epochs took 1.42 seconds.
+
+Epoch 12600/50000 - Cost= 4.304429711 - Cost_test= 47.557777786
+200 epochs took 1.42 seconds.
+
+Epoch 12800/50000 - Cost= 4.258283062 - Cost_test= 51.632590103
+200 epochs took 1.47 seconds.
+
+Epoch 13000/50000 - Cost= 4.233219360 - Cost_test= 43.732805634
+200 epochs took 1.46 seconds.
+Saved Model with cost 3.284990.
+
+Epoch 13200/50000 - Cost= 4.257425548 - Cost_test= 46.149961090
+200 epochs took 1.53 seconds.
+
+Epoch 13400/50000 - Cost= 4.014284065 - Cost_test= 47.693870163
+200 epochs took 1.47 seconds.
+
+Epoch 13600/50000 - Cost= 4.072200220 - Cost_test= 49.790027618
+200 epochs took 1.41 seconds.
+
+Epoch 13800/50000 - Cost= 3.922266889 - Cost_test= 43.832030106
+200 epochs took 1.41 seconds.
+
+Epoch 14000/50000 - Cost= 3.958466747 - Cost_test= 46.815140533
+200 epochs took 1.39 seconds.
+Saved Model with cost 3.099664.
+
+Epoch 14200/50000 - Cost= 3.926031294 - Cost_test= 54.380900192
+200 epochs took 1.42 seconds.
+
+Epoch 14400/50000 - Cost= 3.942934994 - Cost_test= 44.775418091
+200 epochs took 1.40 seconds.
+
+Epoch 14600/50000 - Cost= 3.736876693 - Cost_test= 47.556792068
+200 epochs took 1.41 seconds.
+
+Epoch 14800/50000 - Cost= 3.772011927 - Cost_test= 48.588747025
+200 epochs took 1.41 seconds.
+
+Epoch 15000/50000 - Cost= 3.630269344 - Cost_test= 47.997762299
+200 epochs took 1.41 seconds.
+Saved Model with cost 2.696481.
+
+Epoch 15200/50000 - Cost= 3.613363566 - Cost_test= 41.987565613
+200 epochs took 1.42 seconds.
+
+Epoch 15400/50000 - Cost= 3.469599352 - Cost_test= 44.427874756
+200 epochs took 1.39 seconds.
+
+Epoch 15600/50000 - Cost= 3.529941218 - Cost_test= 48.628304672
+200 epochs took 1.43 seconds.
+
+Epoch 15800/50000 - Cost= 3.397889109 - Cost_test= 47.746212769
+200 epochs took 1.43 seconds.
+
+Epoch 16000/50000 - Cost= 3.367011218 - Cost_test= 43.577006912
+200 epochs took 1.41 seconds.
+Saved Model with cost 2.689064.
+
+Epoch 16200/50000 - Cost= 3.444318352 - Cost_test= 42.647366333
+200 epochs took 1.58 seconds.
+
+Epoch 16400/50000 - Cost= 3.324471746 - Cost_test= 42.280165482
+200 epochs took 1.51 seconds.
+
+Epoch 16600/50000 - Cost= 3.307340970 - Cost_test= 45.160806656
+200 epochs took 1.51 seconds.
+
+Epoch 16800/50000 - Cost= 3.199140248 - Cost_test= 41.743955994
+200 epochs took 1.48 seconds.
+
+Epoch 17000/50000 - Cost= 3.123943731 - Cost_test= 43.499557877
+200 epochs took 1.48 seconds.
+Saved Model with cost 2.687084.
+
+Epoch 17200/50000 - Cost= 3.179255040 - Cost_test= 44.382972717
+200 epochs took 1.48 seconds.
+
+Epoch 17400/50000 - Cost= 3.196112265 - Cost_test= 41.380971527
+200 epochs took 1.42 seconds.
+
+Epoch 17600/50000 - Cost= 3.062975353 - Cost_test= 41.877560425
+200 epochs took 1.43 seconds.
+
+Epoch 17800/50000 - Cost= 2.942807659 - Cost_test= 43.444027710
+200 epochs took 1.45 seconds.
+
+Epoch 18000/50000 - Cost= 2.946063643 - Cost_test= 45.799790192
+200 epochs took 1.46 seconds.
+Saved Model with cost 2.643813.
+
+Epoch 18200/50000 - Cost= 2.950674249 - Cost_test= 50.617506790
+200 epochs took 1.50 seconds.
+
+Epoch 18400/50000 - Cost= 2.940877358 - Cost_test= 39.188601303
+200 epochs took 1.42 seconds.
+
+Epoch 18600/50000 - Cost= 2.824337569 - Cost_test= 43.281454086
+200 epochs took 1.44 seconds.
+
+Epoch 18800/50000 - Cost= 2.784405141 - Cost_test= 43.171178055
+200 epochs took 1.43 seconds.
+
+Epoch 19000/50000 - Cost= 2.748727965 - Cost_test= 48.725594711
+200 epochs took 1.48 seconds.
+Saved Model with cost 2.595330.
+
+Epoch 19200/50000 - Cost= 2.750868351 - Cost_test= 35.356974792
+200 epochs took 1.49 seconds.
+
+Epoch 19400/50000 - Cost= 2.683999985 - Cost_test= 43.247119141
+200 epochs took 1.44 seconds.
+
+Epoch 19600/50000 - Cost= 2.599630309 - Cost_test= 45.796340942
+200 epochs took 1.45 seconds.
+
+Epoch 19800/50000 - Cost= 2.720060000 - Cost_test= 41.319148254
+200 epochs took 1.43 seconds.
+
+Epoch 20000/50000 - Cost= 2.587125282 - Cost_test= 46.932350159
+200 epochs took 1.45 seconds.
+Saved Model with cost 2.508039.
+
+Epoch 20200/50000 - Cost= 2.444326670 - Cost_test= 43.258609772
+200 epochs took 1.53 seconds.
+
+Epoch 20400/50000 - Cost= 2.505466591 - Cost_test= 48.822106552
+200 epochs took 1.50 seconds.
+
+Epoch 20600/50000 - Cost= 2.441991728 - Cost_test= 36.099088669
+200 epochs took 1.59 seconds.
+
+Epoch 20800/50000 - Cost= 2.382501247 - Cost_test= 42.947888184
+200 epochs took 1.59 seconds.
+
+Epoch 21000/50000 - Cost= 2.399083034 - Cost_test= 45.320203400
+200 epochs took 1.54 seconds.
+Saved Model with cost 1.953744.
+
+Epoch 21200/50000 - Cost= 2.373232270 - Cost_test= 42.214459991
+200 epochs took 1.56 seconds.
+
+Epoch 21400/50000 - Cost= 2.282539638 - Cost_test= 44.942154694
+200 epochs took 1.55 seconds.
+
+Epoch 21600/50000 - Cost= 2.279913945 - Cost_test= 42.148157120
+200 epochs took 1.47 seconds.
+
+Epoch 21800/50000 - Cost= 2.241811123 - Cost_test= 39.719339943
+200 epochs took 1.46 seconds.
+
+Epoch 22000/50000 - Cost= 2.250812354 - Cost_test= 33.692031860
+200 epochs took 1.44 seconds.
+Saved Model with cost 1.940391.
+
+Epoch 22200/50000 - Cost= 2.179084087 - Cost_test= 48.326909637
+200 epochs took 1.45 seconds.
+
+Epoch 22400/50000 - Cost= 2.139888941 - Cost_test= 44.001759720
+200 epochs took 1.42 seconds.
+
+Epoch 22600/50000 - Cost= 2.102000828 - Cost_test= 39.579738235
+200 epochs took 1.45 seconds.
+
+Epoch 22800/50000 - Cost= 2.032214235 - Cost_test= 43.164869690
+200 epochs took 1.47 seconds.
+
+Epoch 23000/50000 - Cost= 2.083512099 - Cost_test= 45.209698105
+200 epochs took 1.48 seconds.
+Saved Model with cost 1.778512.
+
+Epoch 23200/50000 - Cost= 2.006840930 - Cost_test= 41.151800156
+200 epochs took 1.47 seconds.
+
+Epoch 23400/50000 - Cost= 2.050734694 - Cost_test= 40.192373657
+200 epochs took 1.43 seconds.
+
+Epoch 23600/50000 - Cost= 2.034562207 - Cost_test= 47.110991669
+200 epochs took 1.45 seconds.
+
+Epoch 23800/50000 - Cost= 1.960986085 - Cost_test= 46.198567200
+200 epochs took 1.47 seconds.
+
+Epoch 24000/50000 - Cost= 1.894753330 - Cost_test= 42.852523422
+200 epochs took 1.46 seconds.
+Saved Model with cost 1.773489.
+
+Epoch 24200/50000 - Cost= 1.940915957 - Cost_test= 40.614499664
+200 epochs took 1.55 seconds.
+
+Epoch 24400/50000 - Cost= 1.848328565 - Cost_test= 45.561548615
+200 epochs took 1.60 seconds.
+
+Epoch 24600/50000 - Cost= 1.877157597 - Cost_test= 34.840770340
+200 epochs took 1.60 seconds.
+
+Epoch 24800/50000 - Cost= 1.879103375 - Cost_test= 42.082423019
+200 epochs took 1.52 seconds.
+
+Epoch 25000/50000 - Cost= 1.827716641 - Cost_test= 47.811009216
+200 epochs took 1.53 seconds.
+Saved Model with cost 1.765609.
+
+Epoch 25200/50000 - Cost= 1.816072623 - Cost_test= 45.102770615
+200 epochs took 1.55 seconds.
+
+Epoch 25400/50000 - Cost= 1.744714617 - Cost_test= 44.975827408
+200 epochs took 1.48 seconds.
+
+Epoch 25600/50000 - Cost= 1.724862382 - Cost_test= 45.308074570
+200 epochs took 1.46 seconds.
+
+Epoch 25800/50000 - Cost= 1.757078447 - Cost_test= 49.175852585
+200 epochs took 1.45 seconds.
+
+Epoch 26000/50000 - Cost= 1.716066871 - Cost_test= 42.148386765
+200 epochs took 1.42 seconds.
+Saved Model with cost 1.733985.
+
+Epoch 26200/50000 - Cost= 1.757321055 - Cost_test= 42.992789841
+200 epochs took 1.47 seconds.
+
+Epoch 26400/50000 - Cost= 1.667597181 - Cost_test= 41.218315125
+200 epochs took 1.41 seconds.
+
+Epoch 26600/50000 - Cost= 1.639231479 - Cost_test= 43.452325821
+200 epochs took 1.38 seconds.
+
+Epoch 26800/50000 - Cost= 1.712930392 - Cost_test= 47.534256363
+200 epochs took 1.38 seconds.
+
+Epoch 27000/50000 - Cost= 1.675558265 - Cost_test= 46.370977783
+200 epochs took 1.42 seconds.
+Saved Model with cost 1.556589.
+
+Epoch 27200/50000 - Cost= 1.628021379 - Cost_test= 41.076648331
+200 epochs took 1.45 seconds.
+
+Epoch 27400/50000 - Cost= 1.567136129 - Cost_test= 46.432830811
+200 epochs took 1.42 seconds.
+
+Epoch 27600/50000 - Cost= 1.580009409 - Cost_test= 43.556179047
+200 epochs took 1.52 seconds.
+
+Epoch 27800/50000 - Cost= 1.568304403 - Cost_test= 47.813439941
+200 epochs took 1.55 seconds.
+
+Epoch 28000/50000 - Cost= 1.597037237 - Cost_test= 43.753062057
+200 epochs took 1.50 seconds.
+Saved Model with cost 0.931331.
+
+Epoch 28200/50000 - Cost= 1.523748587 - Cost_test= 39.194998932
+200 epochs took 1.52 seconds.
+
+Epoch 28400/50000 - Cost= 1.552954895 - Cost_test= 45.322733688
+200 epochs took 1.48 seconds.
+
+Epoch 28600/50000 - Cost= 1.519336050 - Cost_test= 49.967382050
+200 epochs took 1.44 seconds.
+
+Epoch 28800/50000 - Cost= 1.482458683 - Cost_test= 47.037229156
+200 epochs took 1.42 seconds.
+
+Epoch 29000/50000 - Cost= 1.446038797 - Cost_test= 45.085344315
+200 epochs took 1.43 seconds.
+
+Epoch 29200/50000 - Cost= 1.444681085 - Cost_test= 42.146691132
+200 epochs took 1.47 seconds.
+Saved Model with cost 0.854248.
+
+Epoch 29400/50000 - Cost= 1.432627903 - Cost_test= 46.025865555
+200 epochs took 1.52 seconds.
+
+Epoch 29600/50000 - Cost= 1.438229914 - Cost_test= 48.565652466
+200 epochs took 1.51 seconds.
+
+Epoch 29800/50000 - Cost= 1.411950686 - Cost_test= 45.006414413
+200 epochs took 1.60 seconds.
+
+Epoch 30000/50000 - Cost= 1.409037507 - Cost_test= 50.597413635
+200 epochs took 1.67 seconds.
+
+Epoch 30200/50000 - Cost= 1.424214016 - Cost_test= 51.958756638
+200 epochs took 1.54 seconds.
+
+Epoch 30400/50000 - Cost= 1.438332989 - Cost_test= 45.825740433
+200 epochs took 1.55 seconds.
+Saved Model with cost 0.834330.
+
+Epoch 30600/50000 - Cost= 1.430616660 - Cost_test= 46.317618942
+200 epochs took 1.57 seconds.
+
+Epoch 30800/50000 - Cost= 1.319166906 - Cost_test= 45.163323975
+200 epochs took 1.49 seconds.
+
+Epoch 31000/50000 - Cost= 1.418661518 - Cost_test= 43.488186264
+200 epochs took 1.49 seconds.
+
+Epoch 31200/50000 - Cost= 1.301103539 - Cost_test= 44.893759918
+200 epochs took 1.45 seconds.
+
+Epoch 31400/50000 - Cost= 1.317091169 - Cost_test= 43.882526779
+200 epochs took 1.43 seconds.
+Saved Model with cost 0.806188.
+
+Epoch 31600/50000 - Cost= 1.310426908 - Cost_test= 46.473620224
+200 epochs took 1.48 seconds.
+
+Epoch 31800/50000 - Cost= 1.294974676 - Cost_test= 46.105945587
+200 epochs took 1.47 seconds.
+
+Epoch 32000/50000 - Cost= 1.269497695 - Cost_test= 45.863462448
+200 epochs took 1.46 seconds.
+
+Epoch 32200/50000 - Cost= 1.422587993 - Cost_test= 47.488565826
+200 epochs took 1.49 seconds.
+
+Epoch 32400/50000 - Cost= 1.304416677 - Cost_test= 41.658788300
+200 epochs took 1.60 seconds.
+Saved Model with cost 0.789130.
+
+Epoch 32600/50000 - Cost= 1.229429583 - Cost_test= 47.987767792
+200 epochs took 1.63 seconds.
+
+Epoch 32800/50000 - Cost= 1.257162820 - Cost_test= 44.272841644
+200 epochs took 1.56 seconds.
+
+Epoch 33000/50000 - Cost= 1.202182182 - Cost_test= 44.346964645
+200 epochs took 1.54 seconds.
+
+Epoch 33200/50000 - Cost= 1.204920643 - Cost_test= 44.776118851
+200 epochs took 1.53 seconds.
+
+Epoch 33400/50000 - Cost= 1.235635999 - Cost_test= 49.957387543
+200 epochs took 1.46 seconds.
+
+Epoch 33600/50000 - Cost= 1.226130911 - Cost_test= 44.502513504
+200 epochs took 1.48 seconds.
+Saved Model with cost 0.768711.
+
+Epoch 33800/50000 - Cost= 1.213130291 - Cost_test= 44.867957687
+200 epochs took 1.52 seconds.
+
+Epoch 34000/50000 - Cost= 1.230601705 - Cost_test= 51.071254349
+200 epochs took 1.52 seconds.
+
+Epoch 34200/50000 - Cost= 1.230678023 - Cost_test= 44.386156082
+200 epochs took 1.54 seconds.
+
+Epoch 34400/50000 - Cost= 1.161123910 - Cost_test= 47.401360321
+200 epochs took 1.50 seconds.
+
+Epoch 34600/50000 - Cost= 1.145083760 - Cost_test= 46.024267578
+200 epochs took 1.48 seconds.
+
+Epoch 34800/50000 - Cost= 1.139175026 - Cost_test= 46.029362488
+200 epochs took 1.48 seconds.
+Saved Model with cost 0.702584.
+
+Epoch 35000/50000 - Cost= 1.198614967 - Cost_test= 43.275291061
+200 epochs took 1.54 seconds.
+
+Epoch 35200/50000 - Cost= 1.157359468 - Cost_test= 51.387288284
+200 epochs took 1.51 seconds.
+
+Epoch 35400/50000 - Cost= 1.123015789 - Cost_test= 51.582917786
+200 epochs took 1.50 seconds.
+
+Epoch 35600/50000 - Cost= 1.123434341 - Cost_test= 50.019026566
+200 epochs took 1.47 seconds.
+
+Epoch 35800/50000 - Cost= 1.131478292 - Cost_test= 47.493395615
+200 epochs took 1.48 seconds.
+Saved Model with cost 0.647360.
+
+Epoch 36000/50000 - Cost= 1.082646819 - Cost_test= 49.500725937
+200 epochs took 1.48 seconds.
+
+Epoch 36200/50000 - Cost= 1.114869023 - Cost_test= 48.275566101
+200 epochs took 1.43 seconds.
+
+Epoch 36400/50000 - Cost= 1.122698161 - Cost_test= 50.268539047
+200 epochs took 1.45 seconds.
+
+Epoch 36600/50000 - Cost= 1.071684592 - Cost_test= 51.998728180
+200 epochs took 1.47 seconds.
+
+Epoch 36800/50000 - Cost= 1.139366764 - Cost_test= 47.513206482
+200 epochs took 1.46 seconds.
+
+Epoch 37000/50000 - Cost= 1.065930201 - Cost_test= 50.280398560
+200 epochs took 1.47 seconds.
+Saved Model with cost 0.636827.
+
+Epoch 37200/50000 - Cost= 1.041374185 - Cost_test= 44.957786560
+200 epochs took 1.47 seconds.
+
+Epoch 37400/50000 - Cost= 1.095893132 - Cost_test= 54.045346832
+200 epochs took 1.43 seconds.
+
+Epoch 37600/50000 - Cost= 1.049002222 - Cost_test= 49.221724701
+200 epochs took 1.46 seconds.
+
+Epoch 37800/50000 - Cost= 1.023487412 - Cost_test= 52.373359680
+200 epochs took 1.51 seconds.
+
+Epoch 38000/50000 - Cost= 1.017220964 - Cost_test= 52.465079117
+200 epochs took 1.48 seconds.
+
+Epoch 38200/50000 - Cost= 1.011760932 - Cost_test= 48.560520554
+200 epochs took 1.56 seconds.
+Saved Model with cost 0.629148.
+
+Epoch 38400/50000 - Cost= 1.080955940 - Cost_test= 47.542787552
+200 epochs took 1.63 seconds.
+
+Epoch 38600/50000 - Cost= 1.021492008 - Cost_test= 48.429123688
+200 epochs took 1.58 seconds.
+
+Epoch 38800/50000 - Cost= 1.055307544 - Cost_test= 54.411574554
+200 epochs took 1.54 seconds.
+
+Epoch 39000/50000 - Cost= 0.974493845 - Cost_test= 52.126693726
+200 epochs took 1.54 seconds.
+
+Epoch 39200/50000 - Cost= 0.994590870 - Cost_test= 51.834527969
+200 epochs took 1.49 seconds.
+Saved Model with cost 0.602088.
+
+Epoch 39400/50000 - Cost= 1.007707106 - Cost_test= 44.954610443
+200 epochs took 1.52 seconds.
+
+Epoch 39600/50000 - Cost= 0.978559190 - Cost_test= 49.674669266
+200 epochs took 1.47 seconds.
+
+Epoch 39800/50000 - Cost= 0.949821443 - Cost_test= 52.642416000
+200 epochs took 1.42 seconds.
+
+Epoch 40000/50000 - Cost= 1.127025170 - Cost_test= 52.601308060
+200 epochs took 1.42 seconds.
+
+Epoch 40200/50000 - Cost= 0.970544513 - Cost_test= 47.926535416
+200 epochs took 1.45 seconds.
+
+Epoch 40400/50000 - Cost= 0.967395845 - Cost_test= 47.295791245
+200 epochs took 1.48 seconds.
+
+Epoch 40600/50000 - Cost= 0.946630132 - Cost_test= 53.755261993
+200 epochs took 1.48 seconds.
+
+Epoch 40800/50000 - Cost= 0.939869109 - Cost_test= 53.010709000
+200 epochs took 1.51 seconds.
+Saved Model with cost 0.597218.
+
+Epoch 41000/50000 - Cost= 0.927288801 - Cost_test= 50.502053070
+200 epochs took 1.66 seconds.
+
+Epoch 41200/50000 - Cost= 0.892868815 - Cost_test= 49.693420410
+200 epochs took 1.58 seconds.
+
+Epoch 41400/50000 - Cost= 0.929387191 - Cost_test= 53.705939102
+200 epochs took 1.53 seconds.
+
+Epoch 41600/50000 - Cost= 0.922273435 - Cost_test= 56.256084824
+200 epochs took 1.52 seconds.
+
+Epoch 41800/50000 - Cost= 0.926520711 - Cost_test= 54.281620789
+200 epochs took 1.51 seconds.
+Saved Model with cost 0.510170.
+
+Epoch 42000/50000 - Cost= 0.919302720 - Cost_test= 50.597739410
+200 epochs took 1.52 seconds.
+
+Epoch 42200/50000 - Cost= 0.901035559 - Cost_test= 53.393168259
+200 epochs took 1.47 seconds.
+
+Epoch 42400/50000 - Cost= 0.885406659 - Cost_test= 53.480433273
+200 epochs took 1.50 seconds.
+
+Epoch 42600/50000 - Cost= 0.906474678 - Cost_test= 53.685523605
+200 epochs took 1.52 seconds.
+
+Epoch 42800/50000 - Cost= 0.866723100 - Cost_test= 53.210581970
+200 epochs took 1.54 seconds.
+
+Epoch 43000/50000 - Cost= 0.901253657 - Cost_test= 51.809638596
+200 epochs took 1.60 seconds.
+
+Epoch 43200/50000 - Cost= 0.884202639 - Cost_test= 53.914851761
+200 epochs took 1.87 seconds.
+Saved Model with cost 0.498636.
+
+Epoch 43400/50000 - Cost= 0.867807585 - Cost_test= 53.313821030
+200 epochs took 1.85 seconds.
+
+Epoch 43600/50000 - Cost= 0.844503005 - Cost_test= 52.146464539
+200 epochs took 1.78 seconds.
+
+Epoch 43800/50000 - Cost= 0.863646960 - Cost_test= 52.100283051
+200 epochs took 1.74 seconds.
+
+Epoch 44000/50000 - Cost= 0.816053537 - Cost_test= 49.927157974
+200 epochs took 1.71 seconds.
+
+Epoch 44200/50000 - Cost= 0.825817019 - Cost_test= 59.911504364
+200 epochs took 1.43 seconds.
+
+Epoch 44400/50000 - Cost= 0.853517558 - Cost_test= 52.900247574
+200 epochs took 1.43 seconds.
+
+Epoch 44600/50000 - Cost= 0.795501297 - Cost_test= 52.313750076
+200 epochs took 1.42 seconds.
+
+Epoch 44800/50000 - Cost= 0.819189815 - Cost_test= 54.751572037
+200 epochs took 1.43 seconds.
+Saved Model with cost 0.452389.
+
+Epoch 45000/50000 - Cost= 0.798565032 - Cost_test= 53.424845505
+200 epochs took 1.61 seconds.
+
+Epoch 45200/50000 - Cost= 0.821571599 - Cost_test= 60.068113708
+200 epochs took 1.52 seconds.
+
+Epoch 45400/50000 - Cost= 0.839688676 - Cost_test= 59.605072021
+200 epochs took 1.60 seconds.
+
+Epoch 45600/50000 - Cost= 0.812728937 - Cost_test= 51.001304626
+200 epochs took 1.65 seconds.
+
+Epoch 45800/50000 - Cost= 0.793845652 - Cost_test= 57.210660553
+200 epochs took 1.77 seconds.
+
+Epoch 46000/50000 - Cost= 0.782174206 - Cost_test= 55.123041916
+200 epochs took 1.60 seconds.
+
+Epoch 46200/50000 - Cost= 0.798828216 - Cost_test= 52.588186646
+200 epochs took 1.61 seconds.
+Saved Model with cost 0.420437.
+
+Epoch 46400/50000 - Cost= 0.753474789 - Cost_test= 59.676513290
+200 epochs took 1.58 seconds.
+
+Epoch 46600/50000 - Cost= 0.782526482 - Cost_test= 56.722866440
+200 epochs took 1.52 seconds.
+
+Epoch 46800/50000 - Cost= 0.778790297 - Cost_test= 55.657717896
+200 epochs took 1.53 seconds.
+
+Epoch 47000/50000 - Cost= 0.826234056 - Cost_test= 52.124708557
+200 epochs took 1.47 seconds.
+
+Epoch 47200/50000 - Cost= 0.787635804 - Cost_test= 51.681248093
+200 epochs took 1.49 seconds.
+
+Epoch 47400/50000 - Cost= 0.818020082 - Cost_test= 55.858134079
+200 epochs took 1.47 seconds.
+
+Epoch 47600/50000 - Cost= 0.764703474 - Cost_test= 50.826077271
+200 epochs took 1.53 seconds.
+
+Epoch 47800/50000 - Cost= 0.762282183 - Cost_test= 54.982169724
+200 epochs took 1.55 seconds.
+
+Epoch 48000/50000 - Cost= 0.748601390 - Cost_test= 58.004888535
+200 epochs took 1.48 seconds.
+
+Epoch 48200/50000 - Cost= 0.778612713 - Cost_test= 54.344272232
+200 epochs took 1.48 seconds.
+
+Epoch 48400/50000 - Cost= 0.728365689 - Cost_test= 57.348185349
+200 epochs took 1.49 seconds.
+
+Epoch 48600/50000 - Cost= 0.727879117 - Cost_test= 53.907923508
+200 epochs took 1.42 seconds.
+
+Epoch 48800/50000 - Cost= 0.766286436 - Cost_test= 54.805162811
+200 epochs took 1.42 seconds.
+
+Epoch 49000/50000 - Cost= 0.692710713 - Cost_test= 54.921585083
+200 epochs took 1.44 seconds.
+
+Epoch 49200/50000 - Cost= 0.757987416 - Cost_test= 54.275204086
+200 epochs took 1.47 seconds.
+
+Epoch 49400/50000 - Cost= 0.736969066 - Cost_test= 63.100883865
+200 epochs took 1.46 seconds.
+Saved Model with cost 0.400184.
+
+Epoch 49600/50000 - Cost= 0.721336870 - Cost_test= 55.417949677
+200 epochs took 1.58 seconds.
+
+Epoch 49800/50000 - Cost= 0.798487187 - Cost_test= 56.321542358
+200 epochs took 1.59 seconds.
+
+Epoch 50000/50000 - Cost= 0.678869913 - Cost_test= 56.263717651
+200 epochs took 1.60 seconds.
+
+*****TRAINING FINISHED*****
+Training needed 6.17 minutes.
+To apply the trained model, set "outputOnly" to True, and insert numbers for "load_model_test", and "load_model_no" 

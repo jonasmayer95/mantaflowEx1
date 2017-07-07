@@ -1,0 +1,6 @@
+-DMT=1
+-DOPENMP=1
+-DGUI=1
+-o
+/home/paul/Desktop/mantaflowEx1/source/pp/source/gui/moc_glwidget.cpp
+/home/paul/Desktop/mantaflowEx1/source/pp/source/gui/glwidget.h
